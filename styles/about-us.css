@@ -27,6 +27,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgba(0, 0, 0, 0.555);
 }
 
 .logo{
@@ -99,22 +100,27 @@ header{
 
 .subheader{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 20px;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     color: #ffffff;
 }
 
 .main_para{
-    text-align: center;
+    text-align: justify;
     margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
     color: #ffffff;
 }
 
+.main_para b{
+    font-size: 18px;
+}
+
 .maincontent{
-    background: linear-gradient(#000000, #444444);
+    background: linear-gradient(#00000000, #000000);
+    margin-top: 200px;
 }
